@@ -11,7 +11,6 @@ public class Dice{
 			i++;
 			if (c!='6')
 				cnt++;
-			//System.out.println("i"+i);
 			if (i==len){
 				if (c=='6')
 					flag=1;
