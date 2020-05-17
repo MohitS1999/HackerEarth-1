@@ -3,6 +3,7 @@ class DistributeChocalate{
 	public static void main(String args[]){
 		Scanner sc=new Scanner(System.in);
 		int t=sc.nextInt();
+		//test Cases
 		while(t-->0){
 			long c=sc.nextLong();
 			long n=sc.nextLong();
