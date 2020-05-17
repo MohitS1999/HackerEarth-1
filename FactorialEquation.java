@@ -6,7 +6,7 @@ public class FactorialEquation{
 		long x=sc.nextLong();
 		long n=sc.nextLong();
 		if (n>4){
-			System.out.println(x%10);
+			System.out.println("1");
 		}
 		else{
 			int fac[]=new int[5];
@@ -14,13 +14,11 @@ public class FactorialEquation{
 			for(int i=1;i<5;i++)
 				fac[i]=i*fac[i-1];
 			long m=fac[(int)n]%10;
-			System.out.println("dsd "+m);
-			System.out.println("pow "+pow(x,m));
+			// System.out.println("dsd "+m);
+			// System.out.println("pow "+pow(x,m));
 			System.out.println(pow(x%10,m)%10);
 		}
-		System.out.println(pow(x,factmod(n)));
 	}
-	//Modular EXponential
 	static long pow(long n,long p){
 		long res=1;
 		while(p>0){
@@ -31,6 +29,7 @@ public class FactorialEquation{
 		}
 		return res;
 	}
-}
 	
+	
+}
 	
