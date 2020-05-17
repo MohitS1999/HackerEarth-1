@@ -1,3 +1,4 @@
+//https://www.hackerearth.com/challenges/competitive/may-circuits-20/algorithm/powerful-of-factorial-cb263e5b/
 import java.util.*;
 public class FactorialEquation{
 	public static void main(String[] arhs){
@@ -19,6 +20,7 @@ public class FactorialEquation{
 		}
 		System.out.println(pow(x,factmod(n)));
 	}
+	//Modular EXponential
 	static long pow(long n,long p){
 		long res=1;
 		while(p>0){
