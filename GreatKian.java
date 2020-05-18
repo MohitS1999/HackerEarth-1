@@ -4,6 +4,7 @@ public class GreatKian{
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int arr[]=new int[n];
+		//Input
 		for(int i=0;i<n;i++)
 			arr[i]=sc.nextInt();
 		for(int i=0;i<3;i++){
