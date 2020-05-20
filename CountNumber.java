@@ -7,7 +7,7 @@ class CountNumber{
 		{
 			int N=s.nextInt();
 			String string=s.next();
-
+			
 			if (N==string.length())
 			{ 
 				int count=0;
