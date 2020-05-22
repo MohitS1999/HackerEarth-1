@@ -13,6 +13,7 @@ public class NonPalidrome{
 			System.out.println(l);
 		}
 	}
+	//check String is palidrome or not
 	static boolean checkPalidrome(String s,int len){
 		char ch[]=s.toCharArray();
 		int i=0;
