@@ -8,6 +8,8 @@ public class NumberOfArrays{
 			int n=sc.nextInt();
 			int k=sc.nextInt();
 			int q=sc.nextInt();
+			//max initialize with Minimum value
+			//min initialize with Maximum value
 			int max=Integer.MIN_VALUE;
 			int min=Integer.MAX_VALUE;
 			int arr[]=new int[n];
