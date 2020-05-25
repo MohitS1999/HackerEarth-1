@@ -10,17 +10,11 @@ public class NumberOfDivisor{
 			for(long i=1;i<=n;i++){
 				for (long j=i;j>0;j--){
 					if (i%j==0 && j%k!=0){
-						System.out.print(j+" ");
 						sum+=j;
 						break;
 					}
-					// if (j==1){
-						// System.out.print(j+" ");
-						// sum+=1;
-					// }
 				}
 			}
-			System.out.println();
 			System.out.println(sum);
 		}
 	}
