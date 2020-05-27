@@ -12,6 +12,7 @@ public class PlusPlus{
 			}
 		}
 		int n1;
+		//check Even or Odd
 		if ((n%2)==0)
 		{
 			n1=n/2;
@@ -19,6 +20,7 @@ public class PlusPlus{
 			n1=(n/2)+1;
 		}
 		int max=Integer.MIN_VALUE;
+		//Matrix
 		for (int i1=1; i1<n1; i1++){
 		for(int j1=1; j1<m-1; j1++){
 		for(int i2=n1; i2<n-1; i2++){
