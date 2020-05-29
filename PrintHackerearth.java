@@ -5,6 +5,7 @@ public class PrintHackerearth{
 		int n=sc.nextInt();
 		String s=sc.next();
 		int p1=0,p2=0,p3=0,p4=0,p5=0,p6=0,p7=0;
+		//count the frequency of every Character
 		for(char c:s.toCharArray()){
 			if (c=='a')
 				p1++;
