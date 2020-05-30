@@ -14,6 +14,7 @@ public class SetNumber{
 			System.out.println(gp[l]-1);
 		}
 	}
+	//Convert Decimal To Binary
 	static int decToBin(long n){
 		long rem=1;
 		int l=0;
