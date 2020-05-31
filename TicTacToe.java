@@ -3,8 +3,11 @@
 	public class TicTacToe{
 		public static void main(String[] args){
 			Scanner sc=new Scanner(System.in);
+			//Char type array
 			char ch[][]=new char[3][3];
+			//length of x
 			int lenx=0;
+			//length of y
 			int leno=0;
 			for (int i=0;i<3;i++){
 				String s=sc.next();
