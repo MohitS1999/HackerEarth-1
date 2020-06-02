@@ -6,6 +6,7 @@ public class HihiAndCrazyBit{
         int t=sc.nextInt();
         while(t-->0){
             long n=sc.nextLong();
+            //if we want to change the current 'n' to the next greater 'n' and differ by only 1 bit
             System.out.println(n|n+1);
         }
 
