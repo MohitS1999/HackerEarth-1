@@ -10,7 +10,7 @@ public class ChandanAndBalanced{
 				for(int j=i+1;j<s.length();j+=2)
 				{
 					String s1=s.substring(i,j+1);
-					
+					//if substring is palidrome then increse the count
 					if (str(s1)){
 						cnt++;
 						System.out.println(s1);
@@ -20,6 +20,7 @@ public class ChandanAndBalanced{
 			System.out.println(cnt);
 		}
 	}
+	//check string is palidrome or not
 	static boolean str(String s){
 		int j=s.length()-1;
 		int i=0;
