@@ -11,6 +11,7 @@ public class AnshuliParty {
             System.out.println(powerStrings(x,y));
         }
     }
+    //if the length of string is greater then 18
     static long powerStrings(String sa, String sb)
     {
         long a = 0, b = 0;
