@@ -11,7 +11,6 @@ public class HelpOz{
 			if (max<n)
 				max=n;
 		}
-		//System.out.println(min);
 		for (int k=2;k<=max;k++){
 			boolean flag=true;
 			for (int i=0;i<m-1;i++){
