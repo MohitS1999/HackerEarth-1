@@ -4,6 +4,7 @@ public class CountOfInteger{
 	public static void main(String[] agr){
 		final int limit=2*1000001;
 		int prime[]=new int[limit];
+		//prime sieve
 		for (int i=2;i<limit;i++){
 			if (i%2!=0)
 				prime[i]=1;
@@ -30,7 +31,6 @@ public class CountOfInteger{
 						int GCD=gcd(k,n);
 						if ((GCD!=1)&&(GCD!=k)){
 							cnt++;
-							//sb.append(k+" "+n+"  :-  "+GCD+"\n");
 						}
 					}
 				}
@@ -40,7 +40,6 @@ public class CountOfInteger{
 		System.out.println(sb);
 	}
 	public static int gcd(int a,int b){
-		//System.out.print(a+" , "+b+"   "); 
 		if (b==0)
 			return a;
 		//it recursively give the b,a%b
