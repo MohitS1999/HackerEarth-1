@@ -2,6 +2,7 @@
 import java.util.*;
 		public class MoguLovesNumber{
 			public static void main(String[] args){
+				//prime number in (nlog(logn)) complexity
 				int prime[]=new int[100000001];
 				for(int i=2;i<100000001;i++)
 					if (i%2!=0)
