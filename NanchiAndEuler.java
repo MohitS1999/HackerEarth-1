@@ -7,20 +7,21 @@ public class NanchiAndEuler{
 		long num=sc.nextLong();
 		long res=1;
 		 for(long i = 1; i * i <= num; i++){
-            if(num % i == 0){
-                res = ((res % mod) * (phi(i) % mod)) % mod;
-				//it will gives us all the values after squareroot(num) mean
-				// if we take num=12 then 
-				//after sqrt(12):-4,6,12
-				//all these value give by this if condition
-                if(num / i != i){
-                    res = ((res % mod) * (phi(num / i) % mod)) % mod;
-					System.out.println("res "+res);
-                }
+			    if(num % i == 0){
+				res = ((res % mod) * (phi(i) % mod)) % mod;
+						//it will gives us all the values after squareroot(num) mean
+						// if we take num=12 then 
+						//after sqrt(12):-4,6,12
+						//all these value give by this if condition
+				if(num / i != i){
+				    res = ((res % mod) * (phi(num / i) % mod)) % mod;
+							System.out.println("res "+res);
+				}
 			}
 		}
 		System.out.println(res%mod);
 	}
+	//totient function
 	static long phi(long n){
 		double res=n;
 		for(long i=2;i*i<=n;i++){
