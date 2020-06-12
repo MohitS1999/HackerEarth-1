@@ -1,7 +1,8 @@
 import java.util.*;
 public class NearestPrime{
 	public static void main(String[] args){
-	final int limit=2*1000001;
+		final int limit=2*1000001;
+		//find prime number upto limit
 		int prime[]=new int[limit];
 		for (int i=2;i<limit;i++){
 			if (i%2!=0)
