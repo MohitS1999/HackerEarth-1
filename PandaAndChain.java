@@ -13,6 +13,7 @@ import java.util.*;
 			while(t-->0){
 				long n=sc.nextLong();
 				long x=sc.nextLong();
+				//if n is greater than mod then print 1 bcoz after mod always comes 0
 				if (n>mod)
 					System.out.println("0");
 				else
