@@ -19,6 +19,7 @@ public class PermutationAgain{
 				x+=2;
 			}
 		}
+	//test Cases
         int t=sc.nextInt();
         while(t-->0){
             int n=sc.nextInt();
