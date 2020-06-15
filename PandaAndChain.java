@@ -13,6 +13,7 @@ import java.util.*;
 			while(t-->0){
 				long n=sc.nextLong();
 				long x=sc.nextLong();
+				//if n > mod then all the value is zero
 				if (n>mod)
 					System.out.println("0");
 				else
