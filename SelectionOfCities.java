@@ -10,6 +10,7 @@ public class SelectionOfCities{
 			System.out.println(pow(2,n)-1);
 		}
 	}
+	// find power(x,y) in log(x) times
 	static long pow(long a,long b){
 		long res=1;
 		while (b>0){
