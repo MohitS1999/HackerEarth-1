@@ -20,7 +20,6 @@ public class HackTheMoney{
         }
     }
     static boolean canHack(float n){
-		//System.out.println("n:- "+n);
         if ((n-((int)n)!=0) || (n<10 && n>1))
             return false;
         if (n==1)
