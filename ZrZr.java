@@ -1,6 +1,6 @@
 //https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-2/practice-problems/algorithm/zrzr/
 import java.util.*;
-public class ZrZr{
+public class ZrZr {
 	public static void main(String[] arg){
 		Scanner sc=new Scanner(System.in);
 		StringBuffer sb=new StringBuffer();
