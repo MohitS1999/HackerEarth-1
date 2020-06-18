@@ -9,7 +9,6 @@ public class ItsConfidential{
 			int n=sc.nextInt();
 			String s=sc.next();
 			mid(s,0,n-1);
-			
 			System.out.println();
 		}
 	}
