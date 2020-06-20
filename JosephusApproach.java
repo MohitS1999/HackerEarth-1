@@ -14,11 +14,12 @@ class JosephusApproach{
 		    System.out.println(fun(n,k));
 		}
 	}
+	//using Recrsion
 	static int fun(int n,int k){
-		int ans=0;
+            int ans=0;
 	    if (n==1)
 	        return 1;
-		//Josephus Formula
+	    //Josephus Formula
 	    return (fun(n-1,k)+k-1)%n+1;
 	}
 }
