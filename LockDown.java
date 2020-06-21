@@ -3,6 +3,7 @@ public class LockDown{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+        //List of integer type
         ArrayList<Integer> list=new ArrayList<>();
         String s=sc.next();
         for(int i=0;i<n;i++)
