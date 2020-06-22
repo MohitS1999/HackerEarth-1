@@ -45,13 +45,13 @@ public class NQueen{
 	public static boolean isSafe(int board[][],int i,int j,int n){
 		int x=i;
 		int y=j;
-		//for column
+		//for column.
 		while (x>=0){
 			if (board[x][y]==1)
 				return false;
 			x--;
 		}
-		//for right diagonal
+		//for right diagonal.
 		x=i;
 		y=j;
 		while (x>=0 && y<n)
@@ -61,7 +61,7 @@ public class NQueen{
 			x--;
 			y++;
 		}
-		//for left diagonal
+		//for left diagonal.
 		x=i;
 		y=j;
 		while (x>=0 && y>=0)
@@ -71,7 +71,7 @@ public class NQueen{
 			x--;
 			y--;
 		}
-		//if board is safe
+		//if board is safe.
 		return true;
 	}
 }
