@@ -8,6 +8,7 @@ public class SimranAndStairs{
 		ans=0;
 		System.out.println(stairs(n));
 	}
+	//there is three stairs 1,2,3
 	public static int stairs(int n){
 		if (n==0 || n==1)
 			return 1;
