@@ -27,6 +27,7 @@ public class TrystWithChess{
 		}
 		if (move<0)
 			return;
+		//moves of chess
 		position(x-2,y-1,chess,move-1);
 		position(x-1,y-2,chess,move-1);
 		position(x-2,y+1,chess,move-1);
